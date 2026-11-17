@@ -3,6 +3,12 @@ package org.example;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello, Aston!");
+        printThreeWords();
+    }
+
+    public static void printThreeWords() {
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
     }
 }
